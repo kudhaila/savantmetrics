@@ -1,0 +1,120 @@
+* { 
+    font-family: verdana;
+    box-sizing: border-box;
+}
+
+header { 
+
+    text-align: center; 
+    font-size: 30px;
+    border: solid 1px;
+    background-color: #5e17eb;
+    color: white;
+    
+    
+}
+
+ul {
+   background-color: #5e17eb;
+   padding: 0px;
+   margin: 0px;
+   
+}
+
+li { 
+   
+   display: inline-block;
+   text-transform: uppercase;
+   margin: 0px;
+   
+   
+
+}
+
+a { 
+  
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #5e17eb;
+  
+  
+    
+}
+
+a:hover { 
+    background-color: orangered;
+    color: black;
+}
+
+
+h2 { 
+    text-align: center; 
+    background-color: #5e17eb;
+    color: white;
+    clear: float;
+    margin-top: 0px;
+    padding: 10px 50px;
+}
+
+#first { 
+    background-color: white;
+    height: 320px;
+    width: 100%; 
+
+    overflow:scroll; 
+    margin-top: 0;
+    
+
+}
+
+#second { 
+    text-align: center;
+    font-size: 20px;
+}
+
+#third { 
+    text-align: center;
+}
+
+p { 
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+#contactus { 
+    background-color: #5e17eb;
+    color: white;
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin: 0 auto;
+    cursor: pointer;
+    position: relative;
+    display: block;
+}
+
+#contactus:hover { 
+    color: white;
+    background-color: orangered;
+}
+
+#meet { 
+    text-align: center;
+
+}
+
+footer { 
+    background-color: #5e17eb; 
+    color: white;
+    height: 150px;
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+
+}
